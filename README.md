@@ -42,6 +42,19 @@ Setelah selesai membuat keseluruhan domain, kamu diminta untuk segera mengatur w
 17. Karena pengunjung pada /var/www/penanjakan.semeruyyy.pw/public/images sangat banyak maka semua request gambar yang memiliki substring “semeru” akan diarahkan menuju semeru.jpg.
 
 ## Jawab
+
+#### Persiapan
+
+<br>
+
+<center>
+  
+![img](/img/persiapan1.png)
+
+</center>
+
+<br>
+
 1.
 ``` 
 {{langkah}}
