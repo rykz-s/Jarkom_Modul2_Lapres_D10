@@ -57,7 +57,8 @@ Setelah selesai membuat keseluruhan domain, kamu diminta untuk segera mengatur w
 
 1.
 ``` 
-{{langkah}}
+Pada uml malang lakukan konfigurasi seperti berikut pada file named.conf.local, lalu lakukan konfigurasi lagi pada file semerud10.pw yang berada pada direktori jarkom.
+Untuk mengecek apakah berhasil dilakukan ping semerud10.pw pada uml gresik.
 ```
 <center>
   
@@ -73,7 +74,8 @@ Setelah selesai membuat keseluruhan domain, kamu diminta untuk segera mengatur w
 
 2. 
 ``` 
-{{langkah}}
+Pada uml malang lakukan konfigurasi seperti berikut pada file semerud10.pw yang berada di direktori jarkom.
+Untuk mengecek apakah berhasil dilakukan ping www.semerud10.pw pada uml gresik.
 ```
 <center>
   
@@ -87,7 +89,8 @@ Setelah selesai membuat keseluruhan domain, kamu diminta untuk segera mengatur w
 
 3. 
 ```
-{{langkah}}
+Pada uml malang lakukan konfigurasi seperti berikut pada file semerud10.pw yang berada di direktori jarkom.
+Untuk mengecek apakah berhasil dilakukan ping penanjakan.semerud10.pw pada uml gresik.
 ```
 <center>
   
@@ -101,7 +104,8 @@ Setelah selesai membuat keseluruhan domain, kamu diminta untuk segera mengatur w
 
 4. 
 ```
-{{langkah}}
+Pada uml malang lakukan konfigurasi pada file named.conf.local kemudian lakukan konfigurasi pada file yang telah dibuat yaitu pada file 79.151.10.in-addr.arpa seperti pada gambar.
+Untuk mengecek apakah berhasil dilakukan dengan mengetik host -t PTR 10.151.79.92 pada uml gresik.
 ```
 <center>
   
@@ -116,7 +120,8 @@ Setelah selesai membuat keseluruhan domain, kamu diminta untuk segera mengatur w
 
 5. 
 ```
-{{langkah}}
+Pada uml malang lakukan konfigurasi pada file named.conf.local kemudian lakukan konfigurasi lagi pada uml mojokerto untuk file named.conf.local jangan lupa untuk mematikan service bind9 pada uml malang.
+Untuk mengecek apakah berhasil dilakukan ping semerud10.pw pada uml gresik maka akan mengarah ke ip malang.
 ```
 <center>
   
