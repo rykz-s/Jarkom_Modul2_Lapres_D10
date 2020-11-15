@@ -137,7 +137,9 @@ Untuk mengecek apakah berhasil dilakukan ping semerud10.pw pada uml gresik maka 
 
 6. 
 ```
-{{langkah}}
+Pada uml malang lakukan konfigurasi untuk file semerud10.pw seperti pada gambar 6 lalu untuk file named.conf.options lakukan comment pada dnssec-validation auto; kemudian tambahkan sintaks seperti pada gambar 6.1, untuk named.conf.local pada uml malang juga dikonfigurasi seperti pada gambar 6.2.
+Pada uml mojokerto juga dilakukan hal serupa yaitu melakukan konfigurasi pada file named.conf.local dan named.conf.options seperti pada gambar dibawah, kemudian pada file gunung.semerud10.pw dikonfigurasi seperti gambar dibawah.
+Untuk mengecek apakah berhasil dilakukan ping gunung.semerud10.pw pada uml gresik.
 ```
 <center>
   
@@ -161,13 +163,14 @@ Untuk mengecek apakah berhasil dilakukan ping semerud10.pw pada uml gresik maka 
 
 7. 
 ```
-{{langkah}}
+Pada uml mojokerto, tambahkan konfigurasi seperti gambar dibawah untuk file gunung.semerud10.pw yang berada pada direktori delegasi.
+Untuk mengecek apakah berhasil dilakukan ping naik.gunung.semerud10.pw pada uml gresik.
 ```
 <center>
   
-![img](/img/no7.png)
-
 ![img](/img/no7.1.png)
+
+![img](/img/no7.png)
 
 </center>
 
@@ -175,7 +178,8 @@ Untuk mengecek apakah berhasil dilakukan ping semerud10.pw pada uml gresik maka 
 
 8.
 ```
-{{langkah}}
+Pada uml probolinggo, masuk ke direktori sites-available kemudian cp file default dan rename dengan nama semerud10.pw lalu lakukan konfigurasi seperti gambar dibawah.
+Untuk mengecek apakah berhasil dilakukan dengan mengakses situs semerud10.pw
 ```
 <center>
   
@@ -189,7 +193,8 @@ Untuk mengecek apakah berhasil dilakukan ping semerud10.pw pada uml gresik maka 
 
 9.
 ```
-{{langkah}}
+Pada uml probolinggo, masuk ke directori /var/www/semerud10.pw kemudian buat file .htaccess lalu isikan sintaks seperti gambar 9, kemudian lakukan konfigurasi pada file semerud10.pw yang berada pada direktori sites-available seperti gambar 9.1.
+Untuk mengecek apakah berhasil dilakukan dengan mengakses situs semerud10.pw/home
 ```
 <center>
   
@@ -205,7 +210,7 @@ Untuk mengecek apakah berhasil dilakukan ping semerud10.pw pada uml gresik maka 
 
 10.
 ```
-{{langkah}}
+Pada uml probolinggo, masuk ke direktori sites-available kemudian cp file default dan rename dengan nama penanjakan.semerud10.pw lalu lakukan konfigurasi seperti gambar dibawah.
 ```
 <center>
   
