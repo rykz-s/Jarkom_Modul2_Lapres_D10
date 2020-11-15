@@ -224,7 +224,8 @@ Pada uml probolinggo, masuk ke direktori sites-available kemudian cp file defaul
 
 11.
 ```
-{{langkah}}
+Pada uml probolinggo, lakukan konfigurasi pada file penanjakan.semerud10.pw seperti gambar dibawah. Untuk direktori yang dibolehkan listing maka ditambahkan Options +Indexes, sedangkan jika tidak diperbolehkan listing maka ditambahkan Options -Indexes, maka hasilnya akan seperti gambar dibawah dengan cara mengakses penanjakan.semerud10.pw/direktori
+
 ```
 <center>
   
@@ -244,7 +245,8 @@ Pada uml probolinggo, masuk ke direktori sites-available kemudian cp file defaul
 
 12.
 ```
-{{langkah}}
+Pada uml probolinggo, lakukan konfigurasi pada file penanjakan.semerud10.pw dengan menambahkan sintaks seperti pada gambar.
+Untuk mengecek apakah berhasil dilakukan dengan mengakses situs penanjakan.semerud10.pw/aJcjdcje maka akan mengarah ke halaman error.
 ```
 <center>
   
@@ -258,7 +260,8 @@ Pada uml probolinggo, masuk ke direktori sites-available kemudian cp file defaul
 
 13.
 ```
-{{langkah}}
+Pada uml probolinggo, lakukan konfigurasi pada file penanjakan.semerud10.pw dengan menambahkan sintaks Options +Indexes pada direktori yang mengarah kepada js dan Alias "/js" ...
+Untuk mengecek apakah berhasil dilakukan dengan mengakses situs penanjakan.semerud10.pw/js maka akan mengarah ke halaman javascripts.
 ```
 <center>
   
@@ -272,7 +275,9 @@ Pada uml probolinggo, masuk ke direktori sites-available kemudian cp file defaul
 
 14.
 ```
-{{langkah}}
+Pada uml probolinggo, masuk ke direktori sites-available kemudian cp file default dan rename dengan nama naik.gunung.semerud10.pw lalu lakukan konfigurasi seperti gambar dibawah.
+Jangan lupa untuk menambahkan Listen 8888 pada file ports.conf yang terletak pada direktori /etc/apache2
+Untuk mengecek apakah berhasil dilakukan dengan mengakses situs naik.gunung.semerud10.pw
 ```
 <center>
   
