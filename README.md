@@ -43,6 +43,12 @@ Setelah selesai membuat keseluruhan domain, kamu diminta untuk segera mengatur w
 
 ## Jawab
 
+#### Note
+```
+Untuk Nomer 1 - 7 Harap melakukan service bind9 restart sebelum melakukan pengetesan,
+Untuk nomer 8 - 17 Harap melakukan service apache2 restart sebelum melakukan pengetesan.
+```
+
 #### Persiapan
 
 <br>
@@ -291,7 +297,8 @@ Untuk mengecek apakah berhasil dilakukan dengan mengakses situs naik.gunung.seme
 
 15.
 ```
-{{langkah}}
+Pada uml probolinggo, lakukan konfigurasi pada file naik.gunung.semerud10.pw dengan menambahkan sintaks seperti pada gambar dibawah. Lalu mulai menambahkan user dengan cara seperti pada gambar 15.1.
+Untuk mengecek apakah berhasil dilakukan dengan mengakses situs naik.gunung.semerud10.pw
 ```
 <center>
   
@@ -307,13 +314,14 @@ Untuk mengecek apakah berhasil dilakukan dengan mengakses situs naik.gunung.seme
 
 16.
 ```
-{{langkah}}
+Pada uml probolinggo, lakukan konfigurasi pada file default seperti pada gambar dibawah. Kemudian masuk ke direktori /var/www lalu membuat file .htaccess dan diisikan sintaks seperti pada gambar dibawah.
+Untuk mengecek apakah berhasil dilakukan dengan mengakses ping probolinggo yaitu 10.151.79.92 maka akan berubah menjadi semerud10.pw
 ```
 <center>
   
-![img](/img/no16.png)
-
 ![img](/img/no16.1.png)
+
+![img](/img/no16.png)
 
 ![img](/img/no16.2.png)
 
@@ -323,7 +331,8 @@ Untuk mengecek apakah berhasil dilakukan dengan mengakses situs naik.gunung.seme
 
 17.
 ```
-{{langkah}}
+Pada uml probolinggo, lakukan konfigurasi pada file penanjakan.semerud10.pw seperti pada gambar dibawah. Kemudian masuk ke direktori /var/www/penanjakan.semerud10.pw lalu membuat file .htaccess dan diisikan sintaks seperti pada gambar dibawah.
+Untuk mengecek apakah berhasil dilakukan dengan mengakses situs penanjakan.semerud10.pw/public/images/bukansemeruaja.jpg maka akan redirect ke link penanjakan.semerud10.pw/public/images/semeru.jpg
 ```
 <center>
   
