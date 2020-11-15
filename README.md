@@ -47,6 +47,7 @@ Setelah selesai membuat keseluruhan domain, kamu diminta untuk segera mengatur w
 ```
 Untuk Nomer 1 - 7 Harap melakukan service bind9 restart sebelum melakukan pengetesan,
 Untuk nomer 8 - 17 Harap melakukan service apache2 restart sebelum melakukan pengetesan.
+Hal ini dilakukan per-nomer untuk mengaktifkan konfigurasi yang telah diupdate.
 ```
 
 #### Persiapan
